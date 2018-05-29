@@ -1,3 +1,6 @@
+#Docker compose proporcionado por DanielLM98 https://github.com/DanielLM98/ ##
+
+
 version: '2'
 
 networks:
@@ -9,7 +12,7 @@ volumes:
     grafana_data: {}
 
 services:
-
+# #
   prometheus:
     image: prom/prometheus
     container_name: prometheus
@@ -30,7 +33,7 @@ services:
       - monitor-net
     labels:
       org.label-schema.group: "monitoring"
-  
+  # Sistema de Alertas #
   alertmanager:
     image: prom/alertmanager
     container_name: alertmanager
@@ -84,7 +87,7 @@ services:
       - monitor-net
     labels:
       org.label-schema.group: "monitoring"
-  
+ # Visualizador # 
   grafana:
     image: grafana/grafana:4.6.3
     container_name: grafana
