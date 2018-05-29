@@ -8,8 +8,8 @@ A monitoring solution for Docker hosts and containers with [Prometheus](https://
 Clone this repository on your Docker host, cd into dockprom directory and run compose up:
 
 ```bash
-git clone https://github.com/juanmi1994/Prometheus-Grafana
-cd dockprom
+git clone https://github.com/DanielLM98/Grafana
+cd Grafana
 
 ADMIN_USER=admin ADMIN_PASSWORD=admin docker-compose up -d
 ```
