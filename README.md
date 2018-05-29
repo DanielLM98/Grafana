@@ -1,15 +1,3 @@
-References
-=======
-This is only a modify of it proyect https://github.com/stefanprodan/dockprom
-------
-The link to user repositorie is https://github.com/stefanprodan
-
-Start Readme
-======
-
-dockprom
-========
-
 A monitoring solution for Docker hosts and containers with [Prometheus](https://prometheus.io/), [Grafana](http://grafana.org/), [cAdvisor](https://github.com/google/cadvisor), 
 [NodeExporter](https://github.com/prometheus/node_exporter) and alerting with [AlertManager](https://github.com/prometheus/alertmanager).
 
